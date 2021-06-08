@@ -1,0 +1,16 @@
+Task 1:
+Create a simple scraper to extract all Google reviews for the business 'BMW of Austin' from the past 1 year and save the following information to a database table.
+- Date and time of the review
+- Name of the reviewer
+- Stars/Rating given by the reviewer
+- Review text/message
+Here's the google listing of the business - https://www.google.com/search?q=bmw+of+austin
+
+Task 2:
+Create a simple web app to read the saved reviews from the database and display the data on a page.
+
+Technologies to use for the above tasks
+- Python 3.x
+- Beautifulsoup/Selenium (either or both)
+- PostgreSQL/SQLite/MySQL (one of these)
+- Flask

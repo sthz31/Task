@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<h1>Reviews</h1>
+{% for i in reviews %}
+<div>
+    <h3>
+        {{i.reviewer}}
+    </h3>
+    <h4>
+        {{i.rate}}
+        <br>
+        {{i.date}}
+    </h4>
+    <p>
+        {{i.review}}
+    </p>
+</div>
+
+
+
+
+{% endfor %}
+
+</html>
